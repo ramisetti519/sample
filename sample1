@@ -1,11 +1,10 @@
-
 pipeline { 
     agent any 
-        stages { 
-            stage ('Build') { 
+    stages { 
+            stage ('Compile') { 
                 steps { 
                     echo 
-                    'Running build phase. ' 
+                    'Compiled Successfully!! '; 
                 }
             }
         }
